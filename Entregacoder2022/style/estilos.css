@@ -1,0 +1,116 @@
+.clase1 {
+  font-family: "Bungee Spice", cursive;
+  font-size: 50px;
+  text-align: center;
+  background-position: center;
+}
+
+.clase2 {
+  font-family: "Bungee Spice", cursive;
+  font-size: 20px;
+}
+.clase3 {
+  font-family: "Bungee Spice", cursive;
+}
+
+.titulo1 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  animation-duration: 5s;
+  animation-name: aparecer;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+article,
+nav,
+header,
+footer {
+  padding: 1rem;
+  margin: 10px;
+  border: 16px;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 980px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.972);
+}
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+  margin-bottom: auto;
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  background-color: "Bungee Spice";
+  padding: 5px;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 400px;
+}
+
+section {
+  color: white;
+}
+/* html - clases  */
+.contenedor {
+  color: white;
+  text-align: left;
+}
+form {
+  color: white;
+}
+
+form {
+  border: 10px;
+  padding: 5px;
+  height: 50px;
+}
+
+.resaltar {
+  color: orange;
+}
+
+@media  (min-width: 2000px) {
+.miestilo {
+background-color: rgb(255, 0, 132);
+padding: 15px;
+font-size: 30px;
+text-align:right;
+}
+@media  (max-width: 840px) {
+  .miestilo {
+  background-color:blue;
+  padding: 15px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.plancrossfit{
+  width: 400px; ;
+}
+
